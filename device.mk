@@ -37,7 +37,8 @@ PRODUCT_PACKAGES += \
     LineageSystemUIBerlin \
     SettingsProviderResBerlin \
     SettingsResBerlin \
-    SystemUIResBerlin
+    SystemUIResBerlin \
+    WifiResBerlin
 
 # Audio
 PRODUCT_COPY_FILES += \
