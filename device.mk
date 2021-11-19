@@ -35,6 +35,7 @@ $(call inherit-product, device/motorola/sm7325-common/common.mk)
 PRODUCT_PACKAGES += \
     FrameworksResBerlin \
     CustomSystemUIBerlin \
+    SettingsResBerlin \
     SettingsProviderResBerlin \
     SystemUIResBerlin \
     NfcResBerlin \
