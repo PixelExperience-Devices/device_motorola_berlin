@@ -36,6 +36,7 @@ PRODUCT_PACKAGES += \
     FrameworksResBerlin \
     LineageSystemUIBerlin \
     SettingsProviderResBerlin \
+    SettingsResBerlin \
     SystemUIResBerlin
 
 # Audio
