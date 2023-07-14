@@ -15,30 +15,27 @@ vendor/etc/acdbdata/nn_ns_models/fai__2.2.0_0.1__3.0.0_0.0__eai_1.00.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__2.6.1_0.0__eai_v1.10.pmd
 vendor/etc/acdbdata/nn_vad_models/fai_3.0.0_0.0_eai_1.00.pmd
 
+# AudioFX - from cebu - cebu msi-user-11-RZCS31.Q2-57-12-1-6e2bd-release-keys
+system/etc/permissions/com.motorola.software.audiofx.xml|24352c0b599b8d6067eeeff42dec24f076a41bf4
+system/etc/permissions/mmiequalizer.xml|f2128b8055ef5f5ae78750d0ee78875e54cbb4f6
+system/etc/permissions/privapp-com.motorola.audiofx.xml|6790a52d54a750847197ef2533c3c3340ce7883a
+system/etc/sysconfig/config-com.motorola.audiofx.xml|72cf4d0129507fe155cd6c8998ff7cbb7a957bd0
+system/framework/mmiequalizer.jar|38cf3d76ddae9bb90886241aeefe3632879b2487
+-system/priv-app/AudioFxMoto/AudioFxMoto.apk;OVERRIDES=MusicFX|88e245c784121ccfd8291c6a57c63b5303305ba4
+vendor/etc/ap_gain.bin|6e0745a445ae078576edd996accad1f61baa7a7a
+vendor/etc/ap_gain_mmul.bin|d9aeba199707171f74ce56ce6ed3ab8896501041
+vendor/lib/soundfx/libmmieffectswrapper.so|6a86c10c22f7a1078fc4ea2cc8a504f2374a34ec
+
 # Audio firmware
 vendor/firmware/cs35l41-dsp1-spk-cali.bin
 vendor/firmware/cs35l41-dsp1-spk-cali.wmfw
 vendor/firmware/cs35l41-dsp1-spk-prot.bin
 vendor/firmware/cs35l41-dsp1-spk-prot.wmfw
 
-# Audio - from berlin - soundfx
+# Audio - soundfx
 vendor/lib/libMAM2_3-AlgFX-Coretex_A9.so
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libmaxxeffect-cembedded.so
-vendor/lib/soundfx/libmmieffectswrapper.so
-vendor/lib/soundfx/libqcbassboost.so
-vendor/lib/soundfx/libqcreverb.so
-vendor/lib/soundfx/libqcvirt.so
-vendor/lib/soundfx/libshoebox.so
-vendor/lib/soundfx/libspeakerbundle.so
-vendor/lib64/soundfx/libasphere.so
-vendor/lib64/soundfx/libqcbassboost.so
-vendor/lib64/soundfx/libqcreverb.so
-vendor/lib64/soundfx/libqcvirt.so
-vendor/lib64/soundfx/libshoebox.so
-
-# Audio (FX modules) - from cheetah-user 13 TQ2A.230405.003.E1 9802792 release-keys
-vendor/lib/soundfx/libspatialaudio.so|379b98b020729d05cad4e84202f42335b96bb755
 
 # Audio libraries
 vendor/etc/maxx_conf.ini
