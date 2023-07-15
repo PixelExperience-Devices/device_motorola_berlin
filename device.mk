@@ -36,7 +36,6 @@ PRODUCT_PACKAGES += \
     FrameworksResBerlin \
     CustomSystemUIBerlin \
     SettingsProviderResBerlin \
-    SettingsResBerlin \
     SystemUIResBerlin \
     NfcResBerlin \
     WifiResBerlin
