@@ -8,7 +8,7 @@
   {
     "repository"  : "device_motorola_sm7325-common",
     "target_path" : "device/motorola/sm7325-common",
-    "branch"      : "thirteen-plus",
+    "branch"      : "thirteen-plus-wip",
     "remote"      : "pixel-devices"
   }
 ]
