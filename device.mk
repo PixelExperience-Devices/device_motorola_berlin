@@ -88,5 +88,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.hcef.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.nfc.hcef.xml
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/berlin/berlin-vendor.mk)
