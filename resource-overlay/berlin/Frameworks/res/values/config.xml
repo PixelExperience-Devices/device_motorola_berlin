@@ -310,4 +310,10 @@
 
     <!-- Default component for QR code scanner -->
     <string name="config_defaultQrCodeComponent" translatable="false">com.motorola.camera3/com.motorola.camera.Camera</string>
+
+   <!-- Default list of files pinned by the Pinner Service -->
+   <string-array translatable="false" name="config_defaultPinnerServiceFiles">
+        <item>"product/app/MotoWavesV2/MotoWavesV2.apk""</item>
+        <item>"system_ext/priv-app/WavesServiceV2/WavesServiceV2.apk""</item>
+   </string-array>
 </resources>
