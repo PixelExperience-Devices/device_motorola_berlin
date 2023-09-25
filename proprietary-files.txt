@@ -73,17 +73,19 @@ vendor/firmware/cs35l41-dsp1-spk-cali.wmfw
 vendor/firmware/cs35l41-dsp1-spk-prot.bin
 vendor/firmware/cs35l41-dsp1-spk-prot.wmfw
 
+# AudioFX - WavesAudio - modded files
+-product/app/MotoWavesV2/MotoWavesV2.apk;OVERRIDES=MusicFX;PRESIGNED||036f6597eda35d51201fcb19cf0599794c04dfca
+-system_ext/priv-app/WavesServiceV2/WavesServiceV2.apk;PRESIGNED|7796594323471631c8a8484141ff0ef870338b57
+vendor/etc/maxx_conf.ini|dde52484f900d639399390bc65af498119d4d58e
+vendor/etc/maxx_default.mps|8338e3386f06eef92866655cc19059e3999fef27
+
 # AudioFX - WavesAudio
--product/app/MotoWavesV2/MotoWavesV2.apk;OVERRIDES=MusicFX;PRESIGNED
--system_ext/priv-app/WavesServiceV2/WavesServiceV2.apk;PRESIGNED
 product/etc/enable-disable-packages/enable-disable-com.motorola.motowaves.xml
 product/etc/permissions/com.motorola.motowaves.features.xml
 system/lib/libwavesaudio_effectwrapper.so
 system/lib64/libwavesaudio_effectwrapper.so
 system_ext/etc/enable-disable-packages/enable-disable-com.waves.maxxservice-system-ext.xml
 system_ext/etc/permissions/privapp-permissions-com.waves.maxxservice-system-ext.xml
-vendor/etc/maxx_conf.ini
-vendor/etc/maxx_default.mps
 vendor/lib/libacdbloader.so
 vendor/lib/libadspd.so:product/app/MotoWavesV2/lib/libadspd.so
 vendor/lib/libAndroidAlgSys.so
